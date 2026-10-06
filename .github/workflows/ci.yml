@@ -2,11 +2,11 @@ name:  ML-CI Loan Prediction
 on:
   push:
     branches:
-      - main
+      - Main
       - develop
   pull_request:
     branches:
-      - main
+      - Main
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -27,4 +27,3 @@ jobs:
       - name: Run tests
         run: |
           python src/prediction.py
- 
