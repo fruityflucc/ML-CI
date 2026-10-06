@@ -210,5 +210,5 @@ print("\nModel Saved Successfully!")
 
 
 # save test sample as csv for prediction
-X_test.to_csv("../DATA/x_test_sample.csv")
+X_test.to_csv("./DATA/x_test_sample.csv")
  
